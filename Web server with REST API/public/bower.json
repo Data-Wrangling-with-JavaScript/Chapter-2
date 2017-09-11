@@ -1,0 +1,20 @@
+{
+  "name": "Web server with static files",
+  "main": "index.js",
+  "homepage": "https://github.com/JavaScript-Data-Wrangling/Chapter-3",
+  "authors": [
+    "Ashley Davis <ashley@codecapers.com.au>"
+  ],
+  "description": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
