@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 //
 // A reuseable code module with a function to generate a report.

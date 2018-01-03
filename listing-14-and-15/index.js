@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 var express = require('express');
 var path = require('path');
@@ -6,9 +6,9 @@ var generateReport = require('./generate-report.js');
 
 var app = express();
 
-var staticFilesPath = path.join(__dirname, 'public');
+var staticFilesPath = path.join(__dirname, "public");
 var staticFilesMiddleWare = express.static(staticFilesPath);
-app.use('/', staticFilesMiddleWare);
+app.use("/", staticFilesMiddleWare);
 
 var data = [
     {
@@ -78,11 +78,11 @@ var data = [
     }
 ];
 
-app.get('/rest/report', function (req, res) {
+app.get("/rest/report", function (req, res) {
     var report = generateReport(data);
     res.json(report);
 });
 
 app.listen(3000, function () {
-    console.log('Web server listening on port 3000!');
+    console.log("Web server listening on port 3000!");
 });

@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 //
 // Tempalte for a Node.js command line application.

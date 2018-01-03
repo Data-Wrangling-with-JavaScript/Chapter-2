@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 //
 // Example command line app to generate report from some hard-coded data.

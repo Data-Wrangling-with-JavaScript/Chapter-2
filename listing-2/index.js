@@ -1,4 +1,4 @@
-'use strict;'
+"use strict";
 
 //
 // Most basic example of a Node.js command line application.
