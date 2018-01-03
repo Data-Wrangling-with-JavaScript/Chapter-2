@@ -78,11 +78,11 @@ var data = [
     }
 ];
 
-app.get("/rest/report", function (req, res) {
+app.get("/rest/report", (req, res) => {
     var report = generateReport(data);
     res.json(report);
 });
 
-app.listen(3000, function () {
+app.listen(3000, () => {
     console.log("Web server listening on port 3000!");
 });

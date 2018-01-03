@@ -9,6 +9,6 @@ var staticFilesPath = path.join(__dirname, "public");
 var staticFilesMiddleWare = express.static(staticFilesPath);
 app.use('/', staticFilesMiddleWare);
 
-app.listen(3000, function () {
+app.listen(3000, () => {
     console.log("Web server listening on port 3000!");
 });

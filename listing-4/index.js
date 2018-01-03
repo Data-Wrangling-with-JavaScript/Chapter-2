@@ -72,7 +72,7 @@ var data = [
     }
 ];
 
-var generateReport = function (data) {
+function generateReport (data) {
     var columns = Object.keys(data[0]);
     return {
         numRows: data.length, 

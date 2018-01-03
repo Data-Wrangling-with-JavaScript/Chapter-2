@@ -4,7 +4,7 @@
 // A reuseable code module with a function to generate a report.
 //
 
-var generateReport = function (data) {
+function generateReport (data) {
     var columns = Object.keys(data[0]);
     return {
         numRows: data.length,
