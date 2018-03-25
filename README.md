@@ -1,7 +1,9 @@
 # JavaScript Data Wrangling / Chapter-2
 
-Code examples for Chapter 2 (*Getting started with Node.js*) of JavaScript Data Wrangling.
+If you're a JavaScript developer, you already know that working with data is a big deal. Why let the Python and R coders get all the glory? JavaScript isn't just good at data visualization, you can move your entire data wrangling pipeline to JavaScript and work more effectively. Data Wrangling with JavaScript teaches you core data munging techniques in JavaScript, along with many libraries and tools that will make your data tasks even easier.
 
-This repository contains simple examples of Node.js command line applications and Node.js web servers.
+This repository contains code examples for Chapter 2 (*Getting started with Node.js*) of [JavaScript Data Wrangling](http://bit.ly/2t2cJu2).
+
+Here you'll find simple examples of Node.js command line applications and Node.js web servers.
 
 
