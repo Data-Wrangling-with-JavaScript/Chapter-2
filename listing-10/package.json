@@ -1,0 +1,23 @@
+{
+  "name": "Chapter_2_listing_10",
+  "version": "1.0.0",
+  "description": "Code examples for Chapter 2 of JavaScript Data Wrangling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ashleydavis@github.com/JavaScript-Data-Wrangling/Chapter-2.git"
+  },
+  "keywords": [],
+  "author": "ashley@codecapers.com.au",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JavaScript-Data-Wrangling/Chapter-2/issues"
+  },
+  "homepage": "https://github.com/JavaScript-Data-Wrangling/Chapter-2#readme",
+  "dependencies": {
+    "express": "4.15.4"
+  }
+}
