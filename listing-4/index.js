@@ -4,7 +4,7 @@
 // Example command line app to generate report from some hard-coded data.
 //
 
-var data = [
+const data = [
     {
         "dive_divers": "Anjani Ganase, Christophe Bailhache",
         "dive_end_lat": "16'11.491S",
@@ -73,7 +73,7 @@ var data = [
 ];
 
 function generateReport (data) {
-    var columns = Object.keys(data[0]);
+    const columns = Object.keys(data[0]);
     return {
         numRows: data.length, 
         numColumns: columns.length, 
@@ -81,7 +81,7 @@ function generateReport (data) {
     };
 };
 
-var report = generateReport(data);
+const report = generateReport(data);
 
 console.log("Number of rows: " + report.numRows);
 console.log("Number of columns: " + report.numColumns);

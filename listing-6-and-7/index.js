@@ -5,7 +5,7 @@
 // The generateReport function is imported from a reusable code module.
 //
 
-var data = [
+const data = [
     {
         "dive_divers": "Anjani Ganase, Christophe Bailhache",
         "dive_end_lat": "16'11.491S",
@@ -73,9 +73,9 @@ var data = [
     }
 ];
 
-var generateReport = require("./generate-report.js");
+const generateReport = require("./generate-report.js");
 
-var report = generateReport(data);
+const report = generateReport(data);
 
 console.log("Number of rows: " + report.numRows);
 console.log("Number of columns: " + report.numColumns);

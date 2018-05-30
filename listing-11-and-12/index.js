@@ -1,12 +1,12 @@
 "use strict";
 
-var express = require('express');
-var path = require('path');
+const express = require('express');
+const path = require('path');
 
-var app = express();
+const app = express();
 
-var staticFilesPath = path.join(__dirname, "public");
-var staticFilesMiddleWare = express.static(staticFilesPath);
+const staticFilesPath = path.join(__dirname, "public");
+const staticFilesMiddleWare = express.static(staticFilesPath);
 app.use('/', staticFilesMiddleWare);
 
 app.listen(3000, () => {

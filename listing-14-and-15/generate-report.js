@@ -5,7 +5,7 @@
 //
 
 function generateReport (data) {
-    var columns = Object.keys(data[0]);
+    const columns = Object.keys(data[0]);
     return {
         numRows: data.length,
         numColumns: columns.length,

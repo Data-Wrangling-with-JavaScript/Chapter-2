@@ -4,9 +4,9 @@
 // Tempalte for a Node.js command line application.
 //
 
-var yargs = require('yargs');
-var argv = yargs.argv;
-var assert = require('chai').assert;
+const yargs = require('yargs');
+const argv = yargs.argv;
+const assert = require('chai').assert;
 
 //
 // App specific module imports here.

@@ -1,16 +1,16 @@
 "use strict";
 
-var express = require('express');
-var path = require('path');
-var generateReport = require('./generate-report.js');
+const express = require('express');
+const path = require('path');
+const generateReport = require('./generate-report.js');
 
-var app = express();
+const app = express();
 
-var staticFilesPath = path.join(__dirname, "public");
-var staticFilesMiddleWare = express.static(staticFilesPath);
+const staticFilesPath = path.join(__dirname, "public");
+const staticFilesMiddleWare = express.static(staticFilesPath);
 app.use("/", staticFilesMiddleWare);
 
-var data = [
+const data = [
     {
         "dive_divers": "Anjani Ganase, Christophe Bailhache",
         "dive_end_lat": "16'11.491S",
@@ -79,7 +79,7 @@ var data = [
 ];
 
 app.get("/rest/report", (req, res) => {
-    var report = generateReport(data);
+    const report = generateReport(data);
     res.json(report);
 });
 
