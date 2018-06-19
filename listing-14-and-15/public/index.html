@@ -3,16 +3,16 @@
     <head>
         <title>Simple report</title>
     </head>
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script>
-        $.getJSON("/rest/report", function (report) {
-            document.write(
-                "<p>Number of rows: " + report.numRows + "</p>\r\n" +
-                "<p>Number of columns: " + report.numColumns + "</p>\r\n" +
-                "<p>Columns: " + report.columnNames.join(', ') + "</p>"
-            );
-        });
-    </script>
     <body>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script>
+            $.getJSON("/rest/report", function (report) {
+                document.write(
+                    "<p>Number of rows: " + report.numRows + "</p>\r\n" +
+                    "<p>Number of columns: " + report.numColumns + "</p>\r\n" +
+                    "<p>Columns: " + report.columnNames.join(', ') + "</p>"
+                );
+            });
+        </script>
     </body>
 </html>
