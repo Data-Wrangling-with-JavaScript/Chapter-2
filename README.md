@@ -6,4 +6,9 @@ This repository contains code examples for Chapter 2 (*Getting started with Node
 
 Here you'll find simple examples of Node.js command line applications and Node.js web servers.
 
+## Resources
 
+- [Data Wrangling with JavaScript](http://bit.ly/2t2cJu2)
+- [The Data Wrangler](http://www.the-data-wrangler.com/)
+- [Data-Forge](http://www.data-forge-js.com/)
+- [Data-Forge Notebook](http://data-forge-notebook.com/)
