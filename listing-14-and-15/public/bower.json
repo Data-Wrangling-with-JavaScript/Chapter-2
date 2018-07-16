@@ -1,5 +1,5 @@
 {
-  "name": "Web server with static files",
+  "name": "web-server-with-static-files",
   "main": "index.js",
   "homepage": "https://github.com/JavaScript-Data-Wrangling/Chapter-2",
   "authors": [
