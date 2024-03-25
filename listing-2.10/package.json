@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/JavaScript-Data-Wrangling/Chapter-2#readme",
   "dependencies": {
-    "express": "4.15.4"
+    "express": "4.19.2"
   }
 }
